@@ -1,0 +1,21 @@
+/*==========RESET==========*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/*==========HEADER==========*/
+.header {background: url(../imagens/header_bg.png);}
+.header01 {background-color: #212343; padding: 15px 116px 20px;}
+.header02 {display: flex; justify-content: space-between; padding: 0 116px;}
+.header02a {background-color: rgb(33, 35, 67, 0.7); margin: 100px 0 200px; padding: 50px 250px 80px 40px;}
+.header02a ul li {color: white;}
+.header02a ul li + li {margin-top: 20px;}
+.header02b {width: 400px; background-color: white; border: 10px solid #735d58; padding: 15px 0 0 10px;}
+.header02b form h2 {font-weight: normal; color: #999999; font-size: 21px;}
+.header02b form label {display: inline-block;}
+.header02b form label, .header02b form p {color: #999999; margin: 25px 0 10px 0;}
+.header02b form input {width: 350px; height: 50px; border: 1px solid #999999;}
+form input[type="submit"] {width: 280px; height: 50px; background-color: #323665; color: white; font-size: 25px;
+margin: 10px 0 0 40px; border-bottom: 5px solid #4A5097; cursor: pointer;}
