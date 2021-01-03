@@ -31,6 +31,12 @@ margin: 10px 0 0 40px; border-bottom: 5px solid #4A5097; cursor: pointer;}
     .header02b form input {width: 90vw;}
     form input[type="submit"] {width: 90vw; margin: 10px 0 0 0;}
 }
+@media screen and (min-width: 601px) and (max-width: 1120px){
+    .header01 {display: flex; justify-content: center; align-items: center;}
+    .header02 {padding: 0;}
+    .header02a {padding: 50px 40px 80px 40px;}
+    .header02a ul li {width: 20vw;}
+}
 /*==========CONTENT==========*/
 .content01 {background-color: #dddddd;}
 .content01 h2 {text-align: center; font-weight: normal; padding-top: 40px;}
@@ -47,6 +53,11 @@ margin: 10px 0 0 40px; border-bottom: 5px solid #4A5097; cursor: pointer;}
     .content01 p {width: 95vw; padding: 0 0 40px;}
     .contents02 {flex-wrap: wrap; width: 95vw; padding: 0;}
     .contents02 div + div {margin-left: 0;}
+}
+@media screen and (min-width: 601px) and (max-width: 1120px){
+    .content01 p {width: 95vw; padding: 0 0 40px;}
+    .contents02 {width: 95vw; padding: 0;}
+    .contents02 div + div {margin-left: 20px;}
 }
 /*==========FOOTER==========*/
 .footer p, .footer address {text-align: center; margin-bottom: 15px; color: #999;}
