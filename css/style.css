@@ -5,6 +5,9 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+body{
+    overflow-x: hidden;
+}
 /*==========HEADER==========*/
 .header {background: url(../imagens/header_bg.png);}
 .header01 {background-color: #212343; padding: 15px 116px 20px;}
@@ -19,6 +22,15 @@
 .header02b form input {width: 350px; height: 50px; border: 1px solid #999999;}
 form input[type="submit"] {width: 280px; height: 50px; background-color: #323665; color: white; font-size: 25px;
 margin: 10px 0 0 40px; border-bottom: 5px solid #4A5097; cursor: pointer;}
+@media screen and (max-width: 600px){
+    .header01 {display: flex; justify-content: center; align-items: center;}
+    .header02 {flex-wrap: wrap; padding: 0;}
+    .header02a {width: 100vw; padding: 50px 0 80px 40px;}
+    .header02a ul li {width: 100vw;}
+    .header02b {width: 100vw;}
+    .header02b form input {width: 90vw;}
+    form input[type="submit"] {width: 90vw; margin: 10px 0 0 0;}
+}
 /*==========CONTENT==========*/
 .content01 {background-color: #dddddd;}
 .content01 h2 {text-align: center; font-weight: normal; padding-top: 40px;}
@@ -31,6 +43,11 @@ margin: 10px 0 0 40px; border-bottom: 5px solid #4A5097; cursor: pointer;}
 .contents02 h2 {text-align: center; font-weight: normal; color: #472663; margin-bottom: 15px;}
 .contents02 p {text-align: justify; font-weight: normal; line-height: 1.4; font-size: 17px; margin-bottom: 100px;}
 .contents02 div + div {margin-left: 100px;}
+@media screen and (max-width: 600px){
+    .content01 p {width: 95vw; padding: 0 0 40px;}
+    .contents02 {flex-wrap: wrap; width: 95vw; padding: 0;}
+    .contents02 div + div {margin-left: 0;}
+}
 /*==========FOOTER==========*/
 .footer p, .footer address {text-align: center; margin-bottom: 15px; color: #999;}
 
